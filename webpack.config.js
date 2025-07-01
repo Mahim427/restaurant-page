@@ -1,5 +1,5 @@
 const path = require("path");
-
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     mode: "development",
@@ -13,4 +13,9 @@ module.exports = {
     devServer: {
         watchFiles: ["./src/index.html"],
     },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: "./src/template.html",
+        }),
+    ],
 };
