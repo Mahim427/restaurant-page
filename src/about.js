@@ -29,8 +29,4 @@ function createAbout() {
     return div;
 }
 
-const content = document.querySelector("#content");
-content.textContent = "";
-content.appendChild(createAbout());
-
 export default createAbout;

@@ -15,8 +15,4 @@ function createHome() {
     return div;
 }
 
-const content = document.querySelector("#content");
-content.textContent = "";
-content.appendChild(createHome());
-
 export default createHome;

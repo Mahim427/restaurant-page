@@ -48,8 +48,4 @@ function createMenu() {
     return div;
 }
 
-const content = document.querySelector("#content");
-content.textContent = "";
-content.appendChild(createMenu());
-
 export default createMenu;
