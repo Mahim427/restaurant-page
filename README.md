@@ -1,4 +1,4 @@
-# Frontend Mentor - Results summary component solution
+# Odin Project: Restaurant Page
 
 - Live Site URL: [Try it now](https://mahim427.github.io/restaurant-page/)
 
