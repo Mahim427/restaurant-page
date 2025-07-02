@@ -1,0 +1,98 @@
+:root {
+  --clr-primary-hs: 29, 65%;
+  --clr-primary-hsl: var(--clr-primary-hs), 46%;
+
+  --clr-primary-200: hsl(var(--clr-primary-hs), 66%);
+  --clr-primary-300: hsl(var(--clr-primary-hs), 56%);
+  --clr-primary-400: hsl(var(--clr-primary-hs), 46%);
+
+  --fw-semibold: 600;
+
+  --fs-600: 1.4rem;
+  --fs-700: 1.7rem;
+  --fs-800: 2rem;
+}
+
+/*Resets*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: inherit;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/*STYLES*/
+body {
+  --margin: 1rem;
+
+  text-align: center;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--clr-primary-400);
+}
+
+h1 {
+  font-size: var(--fs-800);
+  margin: var(--margin);
+}
+
+h2 {
+  font-size: var(--fs-700);
+  margin: calc(var(--margin) * .8);
+}
+
+h3 {
+  font-size: var(--fs-600);
+  margin: calc(var(--margin) * .6);
+}
+
+p {
+  margin: var(--margin);
+}
+
+/*Header*/
+header {
+  padding: 1rem;
+  background-color: var(--clr-primary-400);
+}
+
+button {
+  border: none;
+  line-height: 1;
+  padding: .8rem 1.6rem;
+  margin-inline: .5rem;
+  border-radius: .5rem;
+  background-color: var(--clr-primary-300);
+  cursor: pointer;
+  color: white;
+  font-weight: var(--fw-semibold);
+}
+
+button:hover,
+button:focus {
+  background-color: var(--clr-primary-200);
+}
+
+
+/*Main*/
+#content {
+  margin: 2rem auto;
+  width: 60%;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem hsl(var(--clr-primary-hsl), .3);
+  padding: 2rem;
+}
