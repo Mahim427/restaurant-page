@@ -1,3 +1,5 @@
 import "./styles.css";
 
-alert("Hello World!");
+import createHome from "./home";
+
+createHome();
