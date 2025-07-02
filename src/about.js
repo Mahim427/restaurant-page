@@ -31,6 +31,6 @@ function createAbout() {
 
 const content = document.querySelector("#content");
 content.textContent = "";
-content.append(createAbout());
+content.appendChild(createAbout());
 
 export default createAbout;

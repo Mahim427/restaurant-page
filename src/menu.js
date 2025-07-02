@@ -50,6 +50,6 @@ function createMenu() {
 
 const content = document.querySelector("#content");
 content.textContent = "";
-content.append(createMenu());
+content.appendChild(createMenu());
 
 export default createMenu;
