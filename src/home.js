@@ -1,10 +1,5 @@
+import { createTag } from "./utils";
 import restImg from "./Restaurant.jpg";
-
-function createTag(tag, text) {
-    const element = document.createElement(tag);
-    element.textContent = text;
-    return element;
-}
 
 function createHome() {
     const h1 = createTag("h1", "Welcome to Fine Dine Restaurant");
