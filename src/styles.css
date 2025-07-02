@@ -33,6 +33,7 @@ img {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 
@@ -43,6 +44,10 @@ body {
   text-align: center;
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: var(--clr-primary-400);
+}
+
+section {
+  margin: 2rem;
 }
 
 h1 {
