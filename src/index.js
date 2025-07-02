@@ -1,9 +1,9 @@
-import "./styles.css";
-import {loader} from "./utils";
+import "./styles/styles.css";
+import {loader} from "./utils/utils";
 
-import createHome from "./home";
-import createMenu from "./menu";
-import createAbout from "./about";
+import createHome from "./components/home";
+import createMenu from "./components/menu";
+import createAbout from "./components/about";
 
 document.querySelector("#home-btn").addEventListener("click", () => {
     loader(createHome)

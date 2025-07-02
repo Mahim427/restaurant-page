@@ -1,4 +1,4 @@
-import {createTag} from "./utils";
+import {createTag} from "../utils/utils";
 
 class CreateAboutTag {
     constructor(title, description) {

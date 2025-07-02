@@ -1,5 +1,5 @@
-import { createTag } from "./utils";
-import restImg from "./Restaurant.jpg";
+import { createTag } from "../utils/utils";
+import restImg from "../assets/images/Restaurant.jpg";
 
 function createHome() {
     const h1 = createTag("h1", "Welcome to Fine Dine Restaurant");

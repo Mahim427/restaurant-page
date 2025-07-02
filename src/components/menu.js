@@ -1,4 +1,4 @@
-import { createTag } from "./utils";
+import { createTag } from "../utils/utils";
 
 class CreateSection {
     constructor(headerText) {
